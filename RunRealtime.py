@@ -2,7 +2,7 @@
 # RunRealtime.py — One-command pipeline with guided baseline + live predictions + LSL
 # =============================================================================
 #
-# High-level overview
+# overview
 # -------------------
 # This script coordinates the whole real-time system:
 #
