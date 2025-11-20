@@ -13,6 +13,8 @@ This project implements a full pipeline that goes from **raw wrist biosignals** 
 
 These steps assume we already have Python and the required libraries installed.
 
+I used Python 3.11.9
+
 ### 1. Clone / copy the project into VS Code
 
 Open the project folder in VS Code so all the `.py` files are available.
@@ -27,7 +29,15 @@ Optionally add anything else our environment needs (e.g. PLUX/OpenSignals tools)
 
 ### 3. Prepare WESAD features and model (offline)
 
-If we have not already done this:
+The WESAD Dataset can be found here:
+https://www.kaggle.com/datasets/orvile/wesad-wearable-stress-affect-detection-dataset
+
+(The dataset is quite big which is why I have excluded it)
+
+Please create a new folder named "Data" and place the dataset in the folder
+
+Structure should look like this: 
+JDG_Stress_Detector_LSL\Data\WESAD
 
 ```bash
 # 1) Extract window-level baseline-relative features from WESAD
